@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <form>
+                <h1>Formulario de contacto</h1>
+                <div class="nombre-completo">
+                    <label for="nombre">Nombre Completo</label>
+                    <br>
+                    <input type="text" name="nombre" placeholder="Escribir su nombre y apellido">
+                </div>
+                <div class="Correo">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" placeholder="Escribir email">
+                </div>
+                <div class="Pais">
+                    <label for="pais">Pais: </label>
+                    <select>
+                        <option value="">Argentina</option>
+                        <option value="">Brasil</option>
+                        <option value="">Estados Unidos</option>
+                        <option value="">Alemania</option>
+                        <option value="">Uruguay</option>
+                        <option value="">Inglaterra</option>
+                    </select>
+                </div>
+                <div class="direccion">
+                    <label for="direccion">Direccion</label>
+                    <br>
+                    <input type="text" name="direccion" placeholder="Escribir su direccion">
+                </div>
+                <div class="telefono">
+                    <label for="telefono">Telefono</label>
+                    <br>
+                    <input type="text" name="telefono" placeholder="Coloque su telefono">
+                </div>
+                <div class="mensajeria">
+                    <textarea type="text" placeholder="Escribir comentario" class="mensaje"></textarea>
+                </div>
+                <button type="submit">Enviar Formulario</button>
+            </form>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
