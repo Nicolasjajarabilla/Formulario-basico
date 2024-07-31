@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(to right, rgb(48, 0, 108), rgb(4, 1, 36));
+}
+
+.formulario{
+    background-color: rgb(108, 108, 108);
+    color: pink;
+    width: 50vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.nombre-completo {
+    margin-top: 5px;
+}
+.nombre-completo label{
+    font-size: 25px;
+}
+
+.nombre-completo input {
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+
+.Correo {
+    margin-top: 10px;
+}
+
+.Correo label {
+    font-size: 25px;
+}
+
+.Correo input {
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+
+.Pais {
+    margin-top: 10px;
+}
+
+.Pais label {
+    font-size: 25px;
+}
+
+.Pais input {
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+.direccion {
+    margin-top: 10px;
+}
+
+.direccion label {
+    font-size: 25px;
+}
+
+.direccion input {
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+.telefono {
+    margin-top: 10px;
+}
+
+.telefono label {
+    font-size: 25px;
+}
+
+.telefono input {
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+
+.mensajeria {
+    margin-top: 10px;
+}
+
+.mensajeria label {
+    font-size: 25px;
+}
+
+.mensajeria textarea {
+    width: 90%;
+    height: 10vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    width: 90%;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+}
+
+button:hover{
+    cursor: pointer;
+}
